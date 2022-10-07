@@ -17,7 +17,7 @@ describe('API Pact test', () => {
   describe('retrieving a product', () => {
     test('ID 10 exists', async () => {
       // Arrange
-      const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees'}
+      const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', demo: "Going well?!"}
 
       // Uncomment to see this fail
       // const expectedProduct = { id: '10', type: 'CREDIT_CARD', name: '28 Degrees', price: 30.0, newField: 22}
@@ -90,7 +90,7 @@ describe('API Pact test', () => {
         },
         willRespondWith: {
           status: 200,
-          headers: {
+          headers: {\
             'Content-Type': regex({generate: 'application/json; charset=utf-8', matcher: 'application/json;?.*'}),
           },
           body: eachLike(expectedProduct),
