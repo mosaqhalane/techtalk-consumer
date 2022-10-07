@@ -5,8 +5,8 @@ import { Product } from './product';
 const { eachLike, like, regex } = Matchers;
 
 const mockProvider = new Pact({
-  consumer: 'techtalk--consumer',
-  provider: process.env.PACT_PROVIDER ? process.env.PACT_PROVIDER : 'techtalk--provider',
+  consumer: 'techtalk-consumer',
+  provider: process.env.PACT_PROVIDER ? process.env.PACT_PROVIDER : 'techtalk-provider',
 });
 
 describe('API Pact test', () => {
