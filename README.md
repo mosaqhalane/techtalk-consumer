@@ -2,13 +2,13 @@
 
 ![Build](https://github.com/pactflow/example-consumer/workflows/Build/badge.svg)
 
-[![Pact Status](https://test.pactflow.io/pacts/provider/pactflow-example-provider/consumer/pactflow-example-consumer/latest/badge.svg?label=provider)](https://test.pactflow.io/pacts/provider/pactflow-example-provider/consumer/pactflow-example-consumer/latest) (latest pact)
+[![Pact Status](https://test.pactflow.io/pacts/provider/techtalk--provider/consumer/techtalk--consumer/latest/badge.svg?label=provider)](https://test.pactflow.io/pacts/provider/techtalk--provider/consumer/techtalk--consumer/latest) (latest pact)
 
-[![Can I deploy Status](https://test.pactflow.io/pacticipants/pactflow-example-consumer/branches/master/latest-version/can-i-deploy/to-environment/production/badge)](https://test.pactflow.io/pacticipants/pactflow-example-consumer/branches/master/latest-version/can-i-deploy/to-environment/production/badge)
+[![Can I deploy Status](https://test.pactflow.io/pacticipants/techtalk--consumer/branches/master/latest-version/can-i-deploy/to-environment/production/badge)](https://test.pactflow.io/pacticipants/techtalk--consumer/branches/master/latest-version/can-i-deploy/to-environment/production/badge)
 
 This is an example of a Node consumer using Pact to create a consumer driven contract, and sharing it via [Pactflow](https://pactflow.io).
 
-It is using a public tenant on Pactflow, which you can access [here](https://test.pactflow.io/) using the credentials `dXfltyFMgNOFZAxr8io9wJ37iUpY42M`/`O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1`. The latest version of the Example Consumer/Example Provider pact is published [here](https://test.pactflow.io/pacts/provider/pactflow-example-provider/consumer/pactflow-example-consumer/latest).
+It is using a public tenant on Pactflow, which you can access [here](https://test.pactflow.io/) using the credentials `dXfltyFMgNOFZAxr8io9wJ37iUpY42M`/`O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1`. The latest version of the Example Consumer/Example Provider pact is published [here](https://test.pactflow.io/pacts/provider/techtalk--provider/consumer/techtalk--consumer/latest).
 
 The project uses a Makefile to simulate a very simple build pipeline with two stages - test and deploy.
 
